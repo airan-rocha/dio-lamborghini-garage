@@ -1,12 +1,15 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { Image, Text, View } from 'react-native';
 
 import { styles } from './styles';
+import Logo from "../../../assets/logo.png"
 
-export function CardView() {
+export default function CardView() {
   return (
     <View style={styles.imageContainer}>
-        <Text>CardView Work's !!!</Text>
+        <View style={styles.logoContainer}>
+          <Image style={styles.imageLogo} source={Logo} />
+        </View>
     </View>
   );
 }
