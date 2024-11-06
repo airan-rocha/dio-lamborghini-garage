@@ -49,4 +49,31 @@ export const styles = StyleSheet.create({
     color: "#fff",
     fontSize: 22,
   },
+  congratulationsContainer: {
+    flex: 1,
+    alignContent: 'center',
+    alignItems: 'center',
+    position: 'absolute',
+    width: "100%",
+    height: "100%",
+  },
+  congratulationsText: {
+    fontSize: 20,
+    fontWeight: "bold",
+    textAlign: "center",
+    color: "#fff000",
+    backgroundColor: "#000000",
+    width: "100%",
+    paddingVertical: 2,
+  },
+  congratulationsTextBig: {
+    fontSize: 27,
+    textTransform: "uppercase",
+  },
+  congratulationsButtonContainer: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+
 });
